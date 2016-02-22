@@ -17,5 +17,5 @@ The simplest approach is to create a Repository interface and declare methods.
 See 'com.jerryhehman.howto.springjparest.repository.auto' for examples.
 
 ## References
-[RESTful URI Design](http://blog.2partsmagic.com/restful-uri-design/)
-[Formatting in Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+- [RESTful URI Design](http://blog.2partsmagic.com/restful-uri-design/)
+- [Formatting in Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
