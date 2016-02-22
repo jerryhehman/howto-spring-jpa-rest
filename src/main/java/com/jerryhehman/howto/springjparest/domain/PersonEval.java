@@ -79,7 +79,7 @@ public class PersonEval implements java.io.Serializable {
    }
 
 @ManyToOne(fetch=FetchType.LAZY)
-   @JoinColumn(name="MAR_STATUS_CD")
+   @JoinColumn(name="RATING_CD")
    public LookupRatingLevel getLookupRatingLevel() {
        return this.lookupRatingLevel;
    }

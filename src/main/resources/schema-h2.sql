@@ -32,8 +32,8 @@
     );
 
     create table person_address (
-        addr_usg_cd char(1) not null,
         person_id varchar(12) not null,
+        addr_usg_cd char(1) not null,
         city_tx varchar(30),
         cntry_cd varchar(2) not null,
         create_by varchar(30),
@@ -48,19 +48,19 @@
         street_line2_tx varchar(60),
         zip_cd varchar(5),
         zip_sfx_cd varchar(4),
-        primary key (addr_usg_cd, person_id)
+        primary key (person_id, addr_usg_cd)
     );
 
     create table person_eval (
-        person_eval_id integer not null,
         person_id varchar(12) not null,
+        person_eval_id integer not null,
         other_tx varchar(1024),
         rating_cd smallint,
         create_by varchar(30) not null,
         create_dt timestamp not null,
         mod_by varchar(30),
         mod_dt timestamp,
-        primary key (person_eval_id, person_id)
+        primary key (person_id, person_eval_id)
     );
 
     create table person_eval_question (

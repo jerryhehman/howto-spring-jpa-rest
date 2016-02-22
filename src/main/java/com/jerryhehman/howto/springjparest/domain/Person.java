@@ -17,7 +17,7 @@ import javax.persistence.Table;
 @Table(name="PERSON"
 )
 @NamedQueries({
-	@NamedQuery(name="PERSON.zipCdPrefixSearch", 
+	@NamedQuery(name="Person.zipCdPrefixSearch", 
 			    query="SELECT s FROM Person s JOIN FETCH s.personAddresses sa where sa.id.addrUsgCd = 'D' and sa.zipCd like :zipCdPrefix")
 })
 @SuppressWarnings("serial")

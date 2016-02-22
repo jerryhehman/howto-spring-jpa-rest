@@ -15,7 +15,8 @@ import com.jerryhehman.howto.springjparest.domain.PersonAddress;
  */
 @Projection( name = "nameAddress", types = {Person.class})
 public interface PersonNameAddress {
-	String getSchId();
-	String getSchNmTx();
+	String getPersonId();
+	String getFirstName();
+	String getLastName();
 	Set<PersonAddress> getPersonAddresses();
 }
