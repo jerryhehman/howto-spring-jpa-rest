@@ -6,12 +6,12 @@ import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter;
 
-import com.jerryhehman.howto.springjparest.domain.LookupMaritalStatus;
-import com.jerryhehman.howto.springjparest.domain.LookupRatingLevel;
-import com.jerryhehman.howto.springjparest.domain.Person;
-import com.jerryhehman.howto.springjparest.domain.PersonAddress;
-import com.jerryhehman.howto.springjparest.domain.PersonEval;
-import com.jerryhehman.howto.springjparest.domain.PersonEvalQuestion;
+import com.jerryhehman.howto.springjparest.eval.domain.LookupMaritalStatus;
+import com.jerryhehman.howto.springjparest.eval.domain.LookupRatingLevel;
+import com.jerryhehman.howto.springjparest.eval.domain.Person;
+import com.jerryhehman.howto.springjparest.eval.domain.PersonAddress;
+import com.jerryhehman.howto.springjparest.eval.domain.PersonEval;
+import com.jerryhehman.howto.springjparest.eval.domain.PersonEvalQuestion;
 
 @Configuration
 public class SpringJpaRestConfiguration
