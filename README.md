@@ -16,6 +16,10 @@ The simplest approach is to create a Repository interface and declare methods.
 
 See 'com.jerryhehman.howto.springjparest.repository.auto' for examples.
 
+## Questions
+[ ] When a Person is requested, the response includes all street address records. However, it does not include the person evaluation records, even though both associations are defined the same way.
+[ ] Does an association get a link in the response when the associated Entity has a Repository? 
+
 ## References
 [RESTful URI Design](http://blog.2partsmagic.com/restful-uri-design/)
 [Formatting in Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
