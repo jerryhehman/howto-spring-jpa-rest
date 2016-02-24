@@ -56,10 +56,7 @@
         person_eval_id integer not null,
         other_tx varchar(1024),
         rating_cd smallint,
-        create_by varchar(30) not null,
-        create_dt timestamp not null,
-        mod_by varchar(30),
-        mod_dt timestamp,
+        complete tinyint,
         primary key (person_id, person_eval_id)
     );
 
