@@ -32,6 +32,7 @@ import com.jerryhehman.howto.springjparest.eval.domain.Person;
  *  This class implements ResourceAssembler and its method, toResource(), which converts the base data to Resource or Resources.
  *  
  *  The REST response for these methods does not include links. It appears we would need to return ResourceSupport subclasses in order for that to happen.
+ *  Also, the link added in process() appears in other domain URIs as well (personEvalQuestions, for example).
  *  
  *  TODO: Implement pagination and sorting. Should we use PagedResourcesAssembler?
  *  

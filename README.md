@@ -36,6 +36,7 @@ As with other auto-generated Repositories, Spring automatically created the conc
 #### Using a DTO as the response class
 Created the PersonSingleAddress class, which combines the fields from Person and PersonAddress and assumes only a single address type. 
 
+<<<<<<< HEAD
 ## Student
 The domain classes have these relationships:
 
@@ -59,3 +60,7 @@ The domain classes have these relationships:
 [Formatting in Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 Just something extra
+=======
+## References
+- [RESTful URI Design](http://blog.2partsmagic.com/restful-uri-design/)
+- [Formatting in Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)

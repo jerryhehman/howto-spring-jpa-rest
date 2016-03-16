@@ -83,4 +83,68 @@ INSERT INTO PERSON_ADDRESS (PERSON_ID,ADDR_USG_CD,STREET_LINE1_TX,CITY_TX,STATE_
 INSERT INTO PERSON_ADDRESS (PERSON_ID,ADDR_USG_CD,STREET_LINE1_TX,CITY_TX,STATE_AB,CNTRY_CD,ZIP_CD,LATITUDE,LONGITUDE) VALUES ('H2551','M','Ap #937-8897 Mailing Rd.','Bellevue','KY','US','41073',-47.1902,-57.8402);
 
 /* TODO: Add Evaluation for a person, with answers. Add Evaluation for a person without answers. Add multiple evaluations, with answers, for a person */
-INSERT INTO PERSON_EVAL (PERSON_ID,PERSON_EVAL_ID,OTHER_TX,RATING_CD,COMPLETE) VALUES ('Q3776',1,'Evaluation text',2,0)
+INSERT INTO PERSON_EVAL (PERSON_ID,PERSON_EVAL_ID,OTHER_TX,RATING_CD,COMPLETE) VALUES ('Q3776',1,'Evaluation text',2,0);
+
+INSERT into STATE values ('AL', 'Alabama'),
+('AK', 'Alaska'),
+('AZ', 'Arizona'),
+('AR', 'Arkansas'),
+('CA', 'California'),
+('CO', 'Colorado'),
+('CT', 'Connecticut'),
+('DE', 'Delaware'),
+('DC', 'District of Columbia'),
+('FL', 'Florida'),
+('GA', 'Georgia'),
+('HI', 'Hawaii'),
+('ID', 'Idaho'),
+('IL', 'Illinois'),
+('IN', 'Indiana'),
+('IA', 'Iowa'),
+('KS', 'Kansas'),
+('KY', 'Kentucky'),
+('LA', 'Louisiana'),
+('ME', 'Maine'),
+('MD', 'Maryland'),
+('MA', 'Massachusetts'),
+('MI', 'Michigan'),
+('MN', 'Minnesota'),
+('MS', 'Mississippi'),
+('MO', 'Missouri'),
+('MT', 'Montana'),
+('NE', 'Nebraska'),
+('NV', 'Nevada'),
+('NH', 'New Hampshire'),
+('NJ', 'New Jersey'),
+('NM', 'New Mexico'),
+('NY', 'New York'),
+('NC', 'North Carolina'),
+('ND', 'North Dakota'),
+('OH', 'Ohio'),
+('OK', 'Oklahoma'),
+('OR', 'Oregon'),
+('PA', 'Pennsylvania'),
+('PR', 'Puerto Rico'),
+('RI', 'Rhode Island'),
+('SC', 'South Carolina'),
+('SD', 'South Dakota'),
+('TN', 'Tennessee'),
+('TX', 'Texas'),
+('UT', 'Utah'),
+('VT', 'Vermont'),
+('VA', 'Virginia'),
+('WA', 'Washington'),
+('WV', 'West Virginia'),
+('WI', 'Wisconsin'),
+('WY', 'Wyoming');
+
+INSERT INTO STUDENT (STUDENT_ID, FIRST_NAME, LAST_NAME) VALUES (1, 'Max', 'Edison');
+
+INSERT INTO STUDENT_ADDRESS (STUDENT_ID,ADDRESS_TYPE_CD,STREET_ADDRESS,CITY_TX,STATE_CD,ZIP_CD) VALUES (1,'D','123 Main St.','Newport','KY','41071');
+INSERT INTO STUDENT_ADDRESS (STUDENT_ID,ADDRESS_TYPE_CD,STREET_ADDRESS,CITY_TX,STATE_CD,ZIP_CD) VALUES (1,'M','P.O. Box 683','Newport','KY','41071');
+
+INSERT INTO COURSE (COURSE_ID,COURSE_NM) VALUES (1001,'English 1');
+INSERT INTO COURSE (COURSE_ID,COURSE_NM) VALUES (1101,'Alegra 1');
+INSERT INTO COURSE (COURSE_ID,COURSE_NM) VALUES (1201,'US History');
+INSERT INTO COURSE (COURSE_ID,COURSE_NM) VALUES (1301,'Biology 1');
+
